@@ -22296,19 +22296,19 @@
     "UAP,Version=v10.0.10586": []
   },
   "packageFolders": {
-    "C:\\Users\\benoo\\.nuget\\packages\\": {}
+    "C:\\Users\\Heervristi\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "E:\\DP\\proj-BenootSven\\DPproject\\DPproject\\DPproject.UWP\\DPproject.UWP.csproj",
+      "projectUniqueName": "C:\\APItest\\proj-BenootSven\\DPproject\\DPproject\\DPproject.UWP\\DPproject.UWP.csproj",
       "projectName": "DPproject.UWP",
-      "projectPath": "E:\\DP\\proj-BenootSven\\DPproject\\DPproject\\DPproject.UWP\\DPproject.UWP.csproj",
-      "projectJsonPath": "E:\\DP\\proj-BenootSven\\DPproject\\DPproject\\DPproject.UWP\\project.json",
-      "packagesPath": "C:\\Users\\benoo\\.nuget\\packages\\",
-      "outputPath": "E:\\DP\\proj-BenootSven\\DPproject\\DPproject\\DPproject.UWP\\obj\\",
+      "projectPath": "C:\\APItest\\proj-BenootSven\\DPproject\\DPproject\\DPproject.UWP\\DPproject.UWP.csproj",
+      "projectJsonPath": "C:\\APItest\\proj-BenootSven\\DPproject\\DPproject\\DPproject.UWP\\project.json",
+      "packagesPath": "C:\\Users\\Heervristi\\.nuget\\packages\\",
+      "outputPath": "C:\\APItest\\proj-BenootSven\\DPproject\\DPproject\\DPproject.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\benoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Heervristi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
@@ -22318,8 +22318,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "E:\\DP\\proj-BenootSven\\DPproject\\DPproject\\DPproject\\DPproject.csproj": {
-              "projectPath": "E:\\DP\\proj-BenootSven\\DPproject\\DPproject\\DPproject\\DPproject.csproj"
+            "C:\\APItest\\proj-BenootSven\\DPproject\\DPproject\\DPproject\\DPproject.csproj": {
+              "projectPath": "C:\\APItest\\proj-BenootSven\\DPproject\\DPproject\\DPproject\\DPproject.csproj"
             }
           }
         }

@@ -11,7 +11,7 @@
 namespace DPproject {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\DP\\proj-BenootSven\\DPproject\\DPproject\\DPproject\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\APItest\\proj-BenootSven\\DPproject\\DPproject\\DPproject\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

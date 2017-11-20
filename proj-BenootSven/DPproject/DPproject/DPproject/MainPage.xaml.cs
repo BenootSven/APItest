@@ -19,9 +19,10 @@ namespace DPproject
 
         private async void test()
         {
-            List<EdamamRecepten> ReceptenList = await EdamamManeger.GetRecepies();
-            lvwRecepten.ItemsSource = ReceptenList;
-            Debug.WriteLine(ReceptenList);
+            EdamamRecepten ReceptenList = await EdamamManeger.GetRecepies();
+            await DisplayAlert("ok", ReceptenList.Q, "close");
+           // lvwRecepten.ItemsSource = ReceptenList;
+            //Debug.WriteLine(ReceptenList);
         }
     }
 }

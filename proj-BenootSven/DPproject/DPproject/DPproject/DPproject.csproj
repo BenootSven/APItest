@@ -43,6 +43,7 @@
     </Compile>
     <Compile Include="Model\EdamamManeger.cs" />
     <Compile Include="Model\EdamamRecepten.cs" />
+    <Compile Include="Model\Hit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

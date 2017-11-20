@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DPproject.Model
 {
-    public static class EdamamManeger
+    public class EdamamManeger
     {
         public const string APIKEY = "90ce976b3a0b3c6c6a2eaabb39940ad5";
         public const string USERTOKEN = "ee79ca6b";
@@ -25,7 +25,7 @@ namespace DPproject.Model
             return client;
         }
 
-        public static async Task<List<EdamamRecepten>> GetRecepies()
+        public static async Task<EdamamRecepten> GetRecepies()
         {
             using (HttpClient client = GetClient())
             {
@@ -35,7 +35,8 @@ namespace DPproject.Model
                 try
                 {
                     string result = await client.GetStringAsync(url);
-                    return JsonConvert.DeserializeObject<List<EdamamRecepten>>(result);
+
+                    return JsonConvert.DeserializeObject<EdamamRecepten>(result);
                 }
                 catch (Exception ex)
                 {

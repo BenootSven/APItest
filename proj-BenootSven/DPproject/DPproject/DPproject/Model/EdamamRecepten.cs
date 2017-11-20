@@ -9,44 +9,24 @@ namespace DPproject.Model
 {
     public class EdamamRecepten
     {
-            [JsonProperty("calories")]
-            public double Calories { get; set; }
+        [JsonProperty("q")]
+        public string Q { get; set; }
 
-            [JsonProperty("cautions")]
-            public string[] Cautions { get; set; }
+        [JsonProperty("from")]
+        public int From { get; set; }
 
-            [JsonProperty("dietLabels")]
-            public string[] DietLabels { get; set; }
+        [JsonProperty("to")]
+        public int To { get; set; }
 
-            [JsonProperty("healthLabels")]
-            public string[] HealthLabels { get; set; }
 
-            [JsonProperty("image")]
-            public string Image { get; set; }
+        [JsonProperty("more")]
+        public bool More { get; set; }
 
-            [JsonProperty("ingredientLines")]
-            public string[] IngredientLines { get; set; }
+        [JsonProperty("count")]
+        public int Count { get; set; }
 
-            [JsonProperty("label")]
-            public string Label { get; set; }
-
-            [JsonProperty("shareAs")]
-            public string ShareAs { get; set; }
-
-            [JsonProperty("source")]
-            public string Source { get; set; }
-
-            [JsonProperty("totalWeight")]
-            public double TotalWeight { get; set; }
-
-            [JsonProperty("uri")]
-            public string Uri { get; set; }
-
-            [JsonProperty("url")]
-            public string Url { get; set; }
-
-            [JsonProperty("yield")]
-            public long Yield { get; set; }
+        [JsonProperty("hits")]
+        public List<Hit> Hits { get; set; }
     }
 }
 
